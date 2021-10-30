@@ -56,13 +56,13 @@ class Grafico:
         c = 1.0
 
         self.ax.clear()
-        x = np.linspace(0,1,200)
+        x = np.linspace(0,1,400)
         for item in naca4(x, m, p, t, c):
             self.ax.plot(item[0], item[1], 'b')
         self.ax.plot(x, camber_line(x, m, p, c), 'r')
         self.ax.axis('equal')
-        #self.ax.xlim(-0.05, 1.05)
-        #self.ax.title('NACA 2412')
+        self.ax.set_xlim(-0.05, 1.05)
+        self.ax.set_title("NACA "+eq)
         self.ax.grid(self.statoGriglia)
         self.canvas.draw()
 

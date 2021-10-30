@@ -60,6 +60,11 @@
    </layout>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>lE_formula</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>cB_griglia</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>
@@ -91,6 +96,22 @@
     <hint type="destinationlabel">
      <x>638</x>
      <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lE_formula</sender>
+   <signal>returnPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>pB_graficoClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>648</x>
+     <y>221</y>
     </hint>
    </hints>
   </connection>
