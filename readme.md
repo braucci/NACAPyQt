@@ -1,4 +1,4 @@
-![](/home/biagio/Insync/raucci@gmail.com/Google Drive/LinuxSwap/python/QtGragico/NACA4412.png)
+![](https://i0.wp.com/www.raucci.net/wp-content/uploads/2021/10/NACA4412.png?w=678&ssl=1)
 
 I **profili alari NACA** sono particolari forme di profilo alare studiati dalla *National Advisory Committee for Aeronautics* (NACA) statunitense. La forma di un profilo alare NACA è descritta  mediante la parola “NACA” seguita da un numero. I valori presenti in  tale codice numerico possono essere inseriti nelle equazioni per  calcolare le proprietà della sezione alare.
 
